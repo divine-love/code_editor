@@ -1,0 +1,233 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+  background-color: #162959;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  background-color: #0B1120;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  /* background:  orange; */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #4aed88;
+  width: 400px;
+  margin: auto;
+  justify-content: center;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.appAside {
+  
+  width: 50%;
+  background-color: #6b5b95;
+  /* background: linear-gradient(90deg, rgba(2,11,25,1) 4%, rgba(7,22,68,0.9809990890887605) 76%, rgba(17,0,82,1) 90%); */
+  align-items: center;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #368654;
+  border-color: #368654;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 1130px 1fr;
+  height: 100vh;
+}
+.divide{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 650px 1fr;
+  background-color: #162959;
+}
+.content {
+  background-color: hsl(212, 75%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+ 
+  text-align: center;
+}
+.aside {
+  /* background: #1c1e29; */
+  background-color: #0B1120;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+/* Assuming you have a CSS file (e.g., Home.css) where you define your styles */
+.leftPanel {
+  float: left;
+  width: 50%; /* Adjust the width as per your design */
+  padding: 20px;
+  background-color: #000000; /* Set the background color */
+  box-sizing: border-box; /* To include padding in the width calculation */
+}
+.rightPanel {
+  background-color: lightgray;
+  padding: 10px;
+}
+.contentWrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+text-align: center;
+}
+
+/* Additional styles for the content within the left panel */
+.leftPanel h4 {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.5;
+}
+h1 {
+  animation: fadeIn 1s ease-in-out;
+}
+.logoImage {
+  height: 50px;
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+      transform: scale(0);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+      color: black;
+  }
+  50% {
+      color: blue;
+  }
+  100% {
+      color: black;
+  }
+}
+
+h1 {
+  animation: fadeIn 1s ease-in-out, scale 0.5s ease-in-out 1s, colorChange 2s linear 2s infinite;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
